@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>GalBox</string>
+<key>CFBundleIdentifier</key><string>io.github.youchenghao2006-lab.GalBox</string>
+<key>CFBundleName</key><string>GalBox</string>
+<key>CFBundleDisplayName</key><string>GalBox</string>
+<key>CFBundleShortVersionString</key><string>1.1</string>
+<key>CFBundleVersion</key><string>2</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSDesktopFolderUsageDescription</key><string>从你选择的桌面文件导入游戏，并在 GalBox 所在目录保存游戏和存档。</string>
+<key>NSDocumentsFolderUsageDescription</key><string>读取你选择导入的游戏文件。</string>
+<key>NSDownloadsFolderUsageDescription</key><string>读取你选择导入的游戏压缩包。</string>
+<key>CFBundleDocumentTypes</key><array><dict>
+<key>CFBundleTypeName</key><string>游戏压缩包</string>
+<key>CFBundleTypeRole</key><string>Viewer</string>
+<key>LSHandlerRank</key><string>Alternate</string>
+<key>CFBundleTypeExtensions</key><array><string>zip</string><string>rar</string><string>7z</string><string>001</string></array>
+</dict></array>
+</dict></plist>
