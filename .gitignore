@@ -1,0 +1,15 @@
+# Portable installs keep user data beside the app.
+/Runtime/
+/Games/
+/Logs/
+/work/
+/library.json
+/GalBox.app/
+.DS_Store
+*.log
+*.zip
+*.rar
+*.7z
+*.tar.*
+*.pkg
+*.exe
